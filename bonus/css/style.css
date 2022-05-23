@@ -1,0 +1,111 @@
+/* reset pagina */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* centramento bonus*/
+.articolo-main, header>div{
+    width: 80%;
+    margin: auto;
+}
+
+/* inizio stile articolo*/
+header{  /*stile header, logo e pattern */
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: rgb(78, 160, 255);   
+}
+
+main, footer{
+    margin-left: 10px; /* margine articolo */
+    margin-top: 30px; 
+}
+
+#logo{
+    width: 200px;       /* posizione logo */
+    margin: 40px 0 10px 10px;
+}
+
+section h1{
+    font-size: 40px; /* titolo articolo */
+}
+
+.autore-data{
+    font-size: 18px;
+    margin-bottom: 20px; /* autore e data articolo */
+    color: gray;
+}
+
+.autore{
+    color: rgb(78, 160, 255); /* font autore */
+}
+
+.data{
+    font-size: 12px; /* font data */
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+.paragrafo{
+    margin: 20px 0 20px 0;
+}
+
+.highlight{ /* sottolineatura */
+    background-color: yellow;
+}
+
+article ul{
+    margin:0 0 20px 15px;
+}
+
+/* inizio stile tabella */
+table{
+    text-align: left;
+
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(177, 229, 242);
+}
+
+thead tr{
+    color: white;
+    background-color: rgb(31, 169, 229);
+}
+/* fine inizio stile tabella */
+/* fine stile articolo */
+
+/* inizio stile sezione potrebbero interessarti*/
+section h3{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.consigliati-1, .consigliati-2{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.consigliati-1 div, .consigliati-2 div{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0 0 10px;
+}
+
+.consigliati-1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.consigliati-2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+}
+/* fine stile sezione potrebbero interessarti*/
