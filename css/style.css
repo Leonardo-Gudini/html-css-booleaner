@@ -1,10 +1,11 @@
+/* reset pagina */
 *{
     margin: 0;
     padding: 0;
 }
 
-/*stile header, logo e pattern */
-header{
+/* inizio stile articolo*/
+header{  /*stile header, logo e pattern */
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
     background-size: contain;
@@ -55,6 +56,7 @@ article ul{
     margin:0 0 20px 15px;
 }
 
+/* inizio stile tabella */
 table{
     text-align: left;
 
@@ -68,7 +70,10 @@ thead tr{
     color: white;
     background-color: rgb(31, 169, 229);
 }
+/* fine inizio stile tabella */
+/* fine stile articolo */
 
+/* inizio stile sezione potrebbero interessarti*/
 section h5{
     color: gray;
     margin-bottom: 20px;
@@ -97,3 +102,4 @@ section h5{
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
 }
+/* fine stile sezione potrebbero interessarti*/
