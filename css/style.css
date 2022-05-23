@@ -57,9 +57,14 @@ article ul{
 
 table{
     text-align: left;
-    background-color: rgb(31, 169, 229);
+
 }
 
-thead{
+tbody tr:nth-child(odd){
+    background-color: rgb(177, 229, 242);
+}
+
+thead tr{
+    color: white;
     background-color: rgb(31, 169, 229);
 }
