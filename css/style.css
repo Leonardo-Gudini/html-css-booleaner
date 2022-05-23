@@ -11,7 +11,7 @@ header{
     background-color: rgb(78, 160, 255);   
 }
 
-main{
+main, footer{
     margin-left: 10px; /* margine articolo */
     margin-top: 30px; 
 }
@@ -67,4 +67,33 @@ tbody tr:nth-child(odd){
 thead tr{
     color: white;
     background-color: rgb(31, 169, 229);
+}
+
+section h5{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.consigliati-1, .consigliati-2{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.consigliati-1 div, .consigliati-2 div{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0 0 10px;
+}
+
+.consigliati-1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.consigliati-2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
 }
